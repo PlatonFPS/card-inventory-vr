@@ -58,10 +58,11 @@ public class Sc_TwoHandInteractable : Sc_Interactable
     {
         grabbing = false;
 
-        Drop();
-        ThrowOnDetach();
+        Drop(); 
 
         manager.RemoveInteractor(handType);
+        ThrowOnDetach();
+
         RemoveHand(arg0);
     }
     private void ThrowOnDetach()
@@ -74,6 +75,7 @@ public class Sc_TwoHandInteractable : Sc_Interactable
     {
         grabbing = false;
         Drop();
+        GetComponent<Rigidbody>().isKinematic = true;
     }
     public void ForceGrab()
     {

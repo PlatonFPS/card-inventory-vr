@@ -436,6 +436,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 592253707}
   m_SourcePrefab: {fileID: 100100000, guid: 1f8e7bd2665503645a9b404fe9abd010, type: 3}
+--- !u!4 &252159704 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5978347990156583651, guid: 1f8e7bd2665503645a9b404fe9abd010, type: 3}
+  m_PrefabInstance: {fileID: 252159703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &259616640
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,11 +908,6 @@ MonoBehaviour:
   twoHandManager: {fileID: 45793933}
   model: {fileID: 355286037}
   trigger: {fileID: 1303896589}
---- !u!4 &592253710 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5978347990156583651, guid: 1f8e7bd2665503645a9b404fe9abd010, type: 3}
-  m_PrefabInstance: {fileID: 252159703}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &653260035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2932,7 +2932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6182418703573843251, guid: c2f41076eaefd4d4d945b4d88bb56d8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.232
+      value: -0.334
       objectReference: {fileID: 0}
     - target: {fileID: 6182418703573843251, guid: c2f41076eaefd4d4d945b4d88bb56d8b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3031,7 +3031,7 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6182418703573843251, guid: c2f41076eaefd4d4d945b4d88bb56d8b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 592253710}
+      addedObject: {fileID: 252159704}
     - targetCorrespondingSourceObject: {fileID: 6182418703573843251, guid: c2f41076eaefd4d4d945b4d88bb56d8b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1303896589}
