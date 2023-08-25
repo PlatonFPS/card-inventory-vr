@@ -15,9 +15,9 @@ MonoBehaviour:
   m_LayerNames:
   - Default
   - UI
-  - OneHandGrab
-  - TwoHandGrab
-  - ClimbInteractable
+  - Interactable
+  - 
+  - 
   - 
   - 
   - 
