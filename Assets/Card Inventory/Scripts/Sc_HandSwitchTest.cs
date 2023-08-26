@@ -17,11 +17,9 @@ public class Sc_HandSwitchTest : MonoBehaviour
     {
         Debug.Log(arg0.interactorObject.transform.name);
     }
-
-    private Transform temporaryTransform;
-    private void SwitchAttachTransforms()
+    public void SwitchAttachTransforms()
     {
-        temporaryTransform = interactable.attachTransform;
+        Transform temporaryTransform = interactable.attachTransform;
         interactable.attachTransform = interactable.secondaryAttachTransform;
         interactable.secondaryAttachTransform = temporaryTransform;
     }
